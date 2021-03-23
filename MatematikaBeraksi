@@ -1,0 +1,40 @@
+package Parameter;
+
+/**
+ *
+ * @author Zahra Aulia
+ */
+public class Matematika{ 
+        
+    void pertambahan (int a, int b) {
+        System.out.println ("hasil : " + (a + b));
+        
+    }
+    void pengurangan (int a, int b) {
+        System.out.println ("hasil : " + (a - b));
+    }
+    void perkalian (int a, double b) {
+        System.out.println ("hasil : " + (a * b));
+    }
+    void pembagian (float a, float b) {
+        System.out.println ("hasil : " + (a / b));
+    }
+    
+}
+========================================================================
+package Parameter;
+
+/**
+ *
+ * @author Zahra Aulia
+ */
+public class MatematikaBeraksi {
+     public static void main (String [] args) {
+        Matematika matematikalucu = new Matematika ();
+        
+        matematikalucu.pertambahan (20,30);
+        matematikalucu.pengurangan (25,5);
+        matematikalucu.perkalian (4,6);
+        matematikalucu.pembagian (25,5);
+    }
+}
