@@ -1,0 +1,30 @@
+package mobil;
+
+/**
+ *
+ * @author zahra aulia
+ */
+public class mobil1 {
+     String warna;
+     int tahunproduksi;
+    
+}
+===========================
+package mobil;
+
+/**
+ *
+ * @author Zahra Aulia
+ */
+public class mobilberaksi {
+    public static void main(String[] args) {
+        mobil1 mobilZahra = new mobil1();
+        
+        mobilZahra.warna = "Silver";
+        mobilZahra.tahunproduksi = 2001;
+        
+        System.out.println("warna: " + mobilZahra.warna);
+        System.out.println("tahun produksi: " + mobilZahra.tahunproduksi);
+        
+    }
+}
